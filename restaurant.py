@@ -1,9 +1,9 @@
 from tkinter import *
-from PIL import ImageFile
+from PIL import ImageTk
 window = Tk()
 window.title("Steveh")
 window.geometry("500x500")
-window.configure(background="cadet blue")
+window.bg = ImageTk.PhotoImage(file="images/Black Bean Burger Recipe.jpeg")
 
 
 def calculate():
